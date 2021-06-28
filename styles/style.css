@@ -170,7 +170,7 @@
   margin-top: 60px;
 }
 
-.table__heading_space_remove {
+.table__heading_theme_white {
   margin: 0;
 }
 
@@ -184,7 +184,7 @@
   line-height: 1.2;
 }
 
-.table__text_space_top {
+.table__text_theme_white {
   margin: 20px 0 0;
 }
 
@@ -257,6 +257,14 @@
   margin-top: 80px;
 }
 
+.table__heading_theme_dark {
+  margin: 0;
+}
+
+.table__text_theme_dark {
+  margin: 20px 0 0;
+}
+
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -288,9 +296,11 @@
 }
 
 .logo_place_footer {
-  background-image: url(/how-to-learn/images/logo_place_footer.svg);
+  background-image: url(../images/logo_place_footer.svg);
   width: 183px;
   height: 35px;
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .footer_author {
