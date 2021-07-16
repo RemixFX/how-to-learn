@@ -4,14 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo logo_place_header"
-      src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
+      <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a class="header__link link-transition" href="#" target="_blank">Узнать &rarr;</a></p>
@@ -20,7 +18,7 @@
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -39,7 +37,7 @@
               примере обучения в Практикуме.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="techniques">
@@ -85,15 +83,13 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316"
-src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-<iframe class="video__iframe" width="515" height="316"
-src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         </div>
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -104,7 +100,7 @@ src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
               «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
@@ -230,15 +226,15 @@ src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         <ul class="resources__logo-zone">
           <li>
             <a class="link-transition" href="https://arzamas.academy/" target="_blank">
-              <img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип Arzamas"></a>
+              <img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип Арзамас"></a>
           </li>
           <li>
             <a class="link-transition" href="https://nplus1.ru/" target="_blank">
-              <img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип N+1"></a>
+              <img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип Н+1"></a>
           </li>
           <li>
             <a class="link-transition" href="https://strelka.com/ru" target="_blank">
-              <img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип Strelka"></a>
+              <img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип Стрелка"></a>
           </li>
           <li>
             <a class="link-transition" href="https://polka.academy/" target="_blank">
@@ -255,19 +251,19 @@ src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
           <p class="footer__author"> &copy; 2021. Роман Суханов</p>
         </div>
         <nav class="footer__column footer__column_content_info">
-          <h2 class="footer__column-heading" >О Практикуме</h2>
+          <h4 class="footer__column-heading" >О Практикуме</h4>
           <a class="footer__column-links link-transition" href="#" target="_blank">Главная</a>
           <a class="footer__column-links link-transition" href="#" target="_blank">Концепция</a>
           <a class="footer__column-links link-transition" href="#" target="_blank">Наставники</a>
         </nav>
         <nav class="footer__column footer__column_content_social">
-          <h2 class="footer__column-heading">Соцсети</h2>
+          <h4 class="footer__column-heading">Соцсети</h4>
           <a class="footer__column-links link-transition" href="https://www.facebook.com/yandex.praktikum" target="_blank">
-            <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="логотип Facebook">Facebook</a>
+            <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="">Facebook</a>
           <a class="footer__column-links link-transition" href="https://vk.com/yandex.praktikum" target="_blank">
-            <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="логотип ВКонтакте">ВКонтакте</a>
+            <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="">ВКонтакте</a>
           <a class="footer__column-links link-transition" href="https://www.instagram.com/yndx.praktikum/" target="_blank">
-            <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="логотип Instagram">Instagram</a>
+            <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="">Instagram</a>
           </nav>
         </div>
     </footer>

@@ -1,3 +1,7 @@
 .cards__item {
   width: 240px;
 }
+
+.cards__item:not(:nth-child(3n+3)) {
+  margin-right: 100px;
+}
