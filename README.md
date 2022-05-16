@@ -14,6 +14,6 @@
 * Возможность добавления контента
 * встраивание Iframes
 ___
-
+### [Ссылка на работу в GitHub-Pages](https://remixfx.github.io/how-to-learn)
 
 ## Мой первый проект на &nbsp;<img src="./images/logo_place_header.svg" width="230px" align="top">
